@@ -244,20 +244,20 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #000000!important;
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #8d99af!important;
+  color: #000000!important;
 }
 
 .background-header .nav li a.active {
-  color: #8d99af!important;
+  color: #000000!important;
 }
 
 .header-area {
-  background-color: transparent;
-  border-bottom: 1px solid rgba(250,250,250,0.2);
+  background-color: rgba(0, 0, 0, 0.055);
+  border-bottom: 1px solid rgba(250, 250, 250, 0.171);
   position: fixed;
   top: 0px;
   left: 0px;
@@ -277,10 +277,11 @@ header
 
 .header-area .main-nav a.logo {
   background-image: url(../images/white-logo.png);
-  width: 400px;
-  height: 78px;
+  width: 12%;
+  height: 88px;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 17px;
+  background-repeat: no-repeat;
 }
 /* CSS to hide the dropdown content by default */
 .dropdown-content {
@@ -299,10 +300,12 @@ header
 
 .background-header .main-nav a.logo {
   background-image: url(../images/black-logo.png);
-  width: 164px;
-  height: 58px;
+  width:12%;
+  height: 88px;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 9px;
+  background-repeat: no-repeat;
+
 }
 
 .background-header .main-nav .nav {
@@ -379,7 +382,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #8d99af!important;
+  color: #000000!important;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -738,8 +741,8 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/banner-bg.jpg);
-  padding: 290px 0px 180px 0px;
+  background-image: url(../images/background.png);
+  padding: 19% 0px 12% 0px;
   position: relative;
   overflow: hidden;
 }
@@ -999,7 +1002,6 @@ Recent Listing
 */
 
 .recent-listing {
-  margin-top: 120px;
   padding-top: 120px;
   margin-bottom: 120px;
   border-top: 1px solid #eee;
@@ -1357,7 +1359,7 @@ Page Heading
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/background.png);
   padding: 230px 0px 120px 0px;
   position: relative;
   overflow: hidden;
